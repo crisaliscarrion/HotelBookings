@@ -1,19 +1,17 @@
-# HotelBookings
+# Hotel Bookings
 
 # Project Background
 
-This data set pertains to two types of hotels: resort and city hotel. It includes information about bookings, guests, parking spaces, etc. The data provided is useful to conduct an explorative data analysis and gain insights on it's operations, booking and cancellation trends, and customer demographics and behavior.
+This data set pertains to two types of hotels: resort and city hotel. It includes information about bookings, guests, parking spaces, etc. 
 
 Insights and recommendations are provided on the following key areas:
 
-- **Category 1:** 
-- **Category 2:** 
-- **Category 3:** 
-- **Category 4:** 
+- **Hotel Operations** 
+- **Booking and Cancellation trends** 
+- **Customer Demographics and Behavior** 
+-
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [link].
-
-Targed SQL queries regarding various business questions can be found here [link].
 
 An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
 
@@ -21,7 +19,7 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
 
 # Data Structure & Initial Checks
 
-The dataset contains 119,390 entries and 32 columns, providing details about hotel bookings.
+The dataset contains 119,390 entries and 32 columns, providing details about hotel bookings. The columns includes data types such as STRINGS, FLOAT, DATE and INTEGERS.
 
 
 # Executive Summary
@@ -72,20 +70,6 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
 * **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
 [Visualization specific to category 3]
-
-
-### Category 4:
-
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 4]
-
 
 
 # Recommendations:
