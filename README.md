@@ -58,9 +58,8 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
   
 * **Distribution Channels** The data showd that the Transient and Transient-Party primaly favored booking throught Travel Agents or Tour Operators(TA/TO). However, the behavior diffirienciated in the second most popular distrubition channels. While the Transient type showed the direct booking channel was the second most popular in their customer type, the Transient-Party type showed preferenced towards the corporate booking option as their second most popular.
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Customers with Children and Babies** Out of the  119,390, only 9,332 were bookings with children or babies. The group with the most amount of these bookings were the Transient Type with a total of 8,459. Additionally, this group favored the City Hotel with 4,918 bookings while the Resort had a total of 3,541.
   
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
 [Visualization specific to category 3]
 
