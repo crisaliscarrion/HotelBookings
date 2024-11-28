@@ -45,6 +45,8 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
 * **Cancellation Percentage** The data showed that in all bookings there is a cancellation percentage of 37.07 % Moreover, an 27.74% of the cancellations came from City Hotels in comparasion of the 9.32% from the Resorts Hotels. Out of all the customer types(Group, Contract, Transient-Part, and Transient, the last one had the biggest cancellation percentage with 30.6 %. 
   
 * **Monthly Cancellatoion Percentage** The top 3 months the hightests cancellations rate are August, July and May respectivaly while the months with the least cancellations rate are January, December and November respectively. Similarly, the customer type with the hightest cancellation rate during the hightests months are the Transient type with a 8.76% in August, 8.23% in July and 7.60% in May. In relation to the type of hotels, the City Hotel had the higests cancellation rates for the peak 3 months  with 7.53 % in August, 6.90%in May, and 6.78% in July.
+* 
+* **Busiest Months** Similarly the patterns follows and shows the the months with the most bookings are August, July and May respectively.
 
 
 [Visualization specific to category 2]
@@ -63,8 +65,13 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
 
 ### Revenue and Occupancy:
 
-* **XX**
-* **xx** 
+* **Room Type** The room type with the most revenue was the A with a total of $14512788.869999 while the L room type made the less revene bringing only $754.0.
+
+* **Weekday vs Weekend Booking** The data showed that 72.62% of the bookings were made for a stay in the week while 27.37% were made for a stay in the weekend. 
+
+* **Revenue by Hotel Type** The City Hotel made the most revnue bringing $14394410.17 while the Resort Hotel brought $11601850.229999926.
+
+
 # Recommendations:
 
 Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
