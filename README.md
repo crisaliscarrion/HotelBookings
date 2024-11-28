@@ -8,7 +8,8 @@ Insights and recommendations are provided on the following key areas:
 
 - **Hotel Operations** 
 - **Booking and Cancellation trends** 
-- **Customer Demographics and Behavior** 
+- **Customer Demographics and Behavior**
+- **Revenue and Occupancy**
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [link].
 
@@ -29,16 +30,13 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
 
 
 # Insights Deep Dive
+
 ### Hotel Operations:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Special Requests** More than half of the bookings didn't order a special requests that being 58.9%. In the other hand, the data showed that 38.69% ordered 1 or 2 special requests. The maxium number of special requests made was 5 consisting of only 0.05% of the total bookings. When taking in consideration the type of hotel and customer, the data shows the the Transient customer as the type making 1 or 2 special requests and mainly on the City Hotel. 19.98 % of transicient customers staying in City Hotels made 1 or 2 special requests while 16.56 % made 1 or 2 requests in the Resort Hotel.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Parking Space** The data showed 93.79% of the bookings didn't requiere any parkings. The ones that did resquested 1 or more space, belonged to the the Transient customer type and 48.35% that requiered parking did it for the City Hotel while 21.33% requested it for the Resort Hotel.
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
 [Visualization specific to category 1]
 
 
@@ -63,7 +61,10 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
 
 [Visualization specific to category 3]
 
+### Revenue and Occupancy:
 
+* **XX**
+* **xx** 
 # Recommendations:
 
 Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
