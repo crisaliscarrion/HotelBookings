@@ -1,5 +1,9 @@
 # HotelBookings
 
-##Project Background 
+## Project Background 
 
-##Data Structure & Initial Checks
+## Data Structure & Initial Checks
+
+# Executive Summary
+
+### Overview of Findings
