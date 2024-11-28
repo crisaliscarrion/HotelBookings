@@ -9,12 +9,8 @@ Insights and recommendations are provided on the following key areas:
 - **Hotel Operations** 
 - **Booking and Cancellation trends** 
 - **Customer Demographics and Behavior** 
--
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [link].
-
-An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
-
 
 
 # Data Structure & Initial Checks
@@ -33,7 +29,7 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
 
 
 # Insights Deep Dive
-### Category 1:
+### Hotel Operations:
 
 * **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
   
@@ -46,24 +42,21 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
 [Visualization specific to category 1]
 
 
-### Category 2:
+### Booking and Cancellation trends:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Cancellation Percentage** The data showed that in all bookings there is a cancellation percentage of 37.07 % Moreover, an 27.74% of the cancellations came from City Hotels in comparasion of the 9.32% from the Resorts Hotels. Out of all the customer types(Group, Contract, Transient-Part, and Transient, the last one had the biggest cancellation percentage with 30.6 %. 
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Monthly Cancellatoion Percentage** The top 3 months the hightests cancellations rate are August, July and May respectivaly while the months with the least cancellations rate are January, December and November respectively. Similarly, the customer type with the hightest cancellation rate during the hightests months are the Transient type with a 8.76% in August, 8.23% in July and 7.60% in May. In relation to the type of hotels, the City Hotel had the higests cancellation rates for the peak 3 months  with 7.53 % in August, 6.90%in May, and 6.78% in July.
+
 
 [Visualization specific to category 2]
 
 
-### Category 3:
+### Customer Demographics and Behavior:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Booking Behavior**  Out of the 119,390 bookings, 25,124 belong to the Transient-Party customer type, 89613 belong to the Transient type, , 4076 belong to the Contract, and 577 to the Group type. This data shows  that the  biggest customer base belong to the Transient-Party and Transient. Moreover, both of this customer types tend to book in the City Hotels in comparasion to the Resorts Hotels. The data showed that the Transietny had a total 17,333 bookings in the City Hotel while it only had 30,209 in the Resort Hotel. Similarly, the Transeint-Party type had a total of 17,333 bookings in the City Hotel and 7,791 in the Resort Hotel.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Distribution Channels** The data showd that the Transient and Transient-Party primaly favored booking throught Travel Agents or Tour Operators(TA/TO). However, the behavior diffirienciated in the second most popular distrubition channels. While the Transient type showed the direct booking channel was the second most popular in their customer type, the Transient-Party type showed preferenced towards the corporate booking option as their second most popular.
   
 * **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
   
