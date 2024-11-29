@@ -81,11 +81,14 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
 
 * **Weekday vs Weekend Booking** The data showed that 72.62% of the bookings were made for a stay in the week while 27.37% were made for a stay in the weekend. 
 
-* **Revenue by Hotel Type** The City Hotel made the most revnue bringing $14394410.17 while the Resort Hotel brought $11601850.229999926.
+* **Revenue by Hotel Type** The City Hotel made the most revenue bringing approximately $25,279,470 while the Resort Hotel brought approximately $17,444,028. In both hotel types the Transient customer type brought the most revenue consisting 80.64%  of the profits for the City Hotel and consisting 79.17% of the profits for the Resort Hotel.
 * 
 ![room type revenue](https://github.com/user-attachments/assets/7a94fe7a-1cc2-4d0a-a5b1-89d662c0fa86)
 
 ![total bookings weekdays vs weekends](https://github.com/user-attachments/assets/35f04a02-0946-41a7-a964-da80d5bbf92c)
+
+![revenue by customer type and hotel type](https://github.com/user-attachments/assets/058b4f35-124e-4662-8b90-79703c88ccf4)
+
 
 
 # Recommendations:
