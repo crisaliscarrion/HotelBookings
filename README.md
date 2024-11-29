@@ -1,8 +1,8 @@
 # Hotel Bookings Analysis
-
+---
 # Project Background
 
-This data set pertains to two types of hotels: resort and city hotel. It includes information about bookings, guests, parking spaces, etc. 
+This data set pertains to two types of hotels: resort and city hotel and the demands of each type. It includes information about bookings, guests, parking spaces, etc. 
 
 Insights and recommendations are provided on the following key areas:
 
@@ -22,6 +22,8 @@ The dataset contains 119,390 entries and 32 columns, providing details about hot
 # Executive Summary
 
 ### Overview of Findings
+
+A variety of trends and patterns were identified and attributes were quantified to analyze the previous key areas listed. The biggest customer type that make the most bookings and the most revenue is the Transiet. This customer type tends to do their bookings via a Travel Agency or a Tour Operators. Additionally, this customer tends to prefer the City Hotel over the Resort Hotel.
 
 Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
 
@@ -102,6 +104,10 @@ Based on the insights and findings above, we would recommend the [stakeholder te
 * Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
   
 * Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+
+# References 
+
+Mostipak, J. (2020). Hotel booking demand. Retrieved from https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand
   
 * Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
   
