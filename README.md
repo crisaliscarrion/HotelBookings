@@ -14,21 +14,20 @@ Insights and recommendations are provided on the following key areas:
 The SQL queries used to inspect and clean the data for this analysis can be found here [link].
 
 
-# Data Structure & Initial Checks
+# Data Structure & Tools
+
+This data set was retrived from Kaggle(See Reference). 
 
 The dataset contains 119,390 entries and 32 columns, providing details about hotel bookings. The columns includes data types such as STRINGS, FLOAT, DATE and INTEGERS.
+
+The tools used in this project were SQL to clean and analysis the data and RStudio for additional analysis and generation the plots. 
 
 
 # Executive Summary
 
 ### Overview of Findings
 
-A variety of trends and patterns were identified and attributes were quantified to analyze the previous key areas listed. The biggest customer type that make the most bookings and the most revenue is the Transiet. This customer type tends to do their bookings via a Travel Agency or a Tour Operators. Additionally, this customer tends to prefer the City Hotel over the Resort Hotel.
-
-Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
-
-[Visualization, including a graph of overall trends or snapshot of a dashboard]
-
+A variety of trends and patterns were identified and attributes were quantified to analyze the previous key areas listed. The biggest customer type that make the most bookings and the most revenue is the Transiet. This customer type tends to do their bookings via a Travel Agency or a Tour Operators. Additionally, this customer tends to prefer the City Hotel over the Resort Hotel. The months with the hightest number of bookings are August and July but these are also the months with the hightest number of cancellations. 
 
 
 # Insights Deep Dive
@@ -84,7 +83,7 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
 * **Weekday vs Weekend Booking** The data showed that 72.62% of the bookings were made for a stay in the week while 27.37% were made for a stay in the weekend. 
 
 * **Revenue by Hotel Type** The City Hotel made the most revenue bringing approximately $25,279,470 while the Resort Hotel brought approximately $17,444,028. In both hotel types the Transient customer type brought the most revenue consisting 80.64%  of the profits for the City Hotel and consisting 79.17% of the profits for the Resort Hotel.
-* 
+  
 ![room type revenue](https://github.com/user-attachments/assets/7a94fe7a-1cc2-4d0a-a5b1-89d662c0fa86)
 
 ![total bookings weekdays vs weekends](https://github.com/user-attachments/assets/35f04a02-0946-41a7-a964-da80d5bbf92c)
