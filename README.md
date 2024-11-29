@@ -36,7 +36,11 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
 * **Special Requests** More than half of the bookings didn't order a special requests that being 58.9%. In the other hand, the data showed that 38.69% ordered 1 or 2 special requests. The maxium number of special requests made was 5 consisting of only 0.05% of the total bookings. When taking in consideration the type of hotel and customer, the data shows the the Transient customer as the type making 1 or 2 special requests and mainly on the City Hotel. 19.98 % of transicient customers staying in City Hotels made 1 or 2 special requests while 16.56 % made 1 or 2 requests in the Resort Hotel.
   
 * **Parking Space** The data showed 93.79% of the bookings didn't requiere any parkings. The ones that did resquested 1 or more space, belonged to the the Transient customer type and 48.35% that requiered parking did it for the City Hotel while 21.33% requested it for the Resort Hotel.
-  
+
+
+  ![operation analysis](https://github.com/user-attachments/assets/dd01c69e-76c2-4587-a333-9f735896f14b)
+
+![parking space](https://github.com/user-attachments/assets/3bce3f7f-d80d-4845-9bb4-3dc584de7265)
 
 
 ### Booking and Cancellation trends:
