@@ -1,0 +1,149 @@
+# Booking and Cancelling Analysis
+
+SELECT
+AVG(is_canceled) AS average_of_cancellations
+FROM noted-bliss-439816-r1.hotelbookings.hotel_bookings
+
+## Validating the calculation
+
+SELECT 
+COUNT(is_canceled)/119290 AS average_of_cancellations
+FROM noted-bliss-439816-r1.hotelbookings.hotel_bookings
+WHERE is_canceled = 1
+
+##Calculating percentage of cancellations
+SELECT 
+COUNT(is_canceled)/119290 * 100 AS percentage_of_cancellations
+FROM noted-bliss-439816-r1.hotelbookings.hotel_bookings
+WHERE is_canceled = 1
+
+SELECT hotel,
+COUNT(is_canceled)/119290 * 100 AS percentage_of_cancellations
+FROM noted-bliss-439816-r1.hotelbookings.hotel_bookings
+WHERE is_canceled = 1
+GROUP BY hotel
+
+SELECT customer_type,
+COUNT(is_canceled)/119290 * 100 AS percentage_of_cancellations
+FROM noted-bliss-439816-r1.hotelbookings.hotel_bookings
+WHERE is_canceled = 1
+GROUP BY customer_type
+
+#Calculating the average of cancellations of every month
+SELECT customer_type,
+arrival_date_month as month,
+COUNT(is_canceled)/119290 * 100 AS percentage_of_cancellations
+
+FROM noted-bliss-439816-r1.hotelbookings.hotel_bookings
+
+GROUP BY month, customer_type 
+ORDER BY percentage_of_cancellations DESC
+
+SELECT hotel,
+arrival_date_month as month,
+COUNT(is_canceled)/119290 * 100 AS percentage_of_cancellations
+
+FROM noted-bliss-439816-r1.hotelbookings.hotel_bookings
+
+GROUP BY month, hotel 
+ORDER BY percentage_of_cancellations DESC
+
+SELECT 
+    arrival_date_month,
+    COUNT(*) AS total_bookings
+FROM 
+    noted-bliss-439816-r1.hotelbookings.hotel_bookings
+WHERE 
+    is_canceled = 0
+GROUP BY 
+    arrival_date_month
+ORDER BY 
+    total_bookings DESC
+
+#Customer Type Analysis
+
+SELECT customer_type,  COUNT(*) AS Count
+FROM noted-bliss-439816-r1.hotelbookings.hotel_bookings
+GROUP BY customer_type 
+
+SELECT customer_type, hotel,  COUNT(*) AS Count
+FROM noted-bliss-439816-r1.hotelbookings.hotel_bookings
+GROUP BY customer_type, hotel
+ORDER BY Count DESC
+
+SELECT customer_type, distribution_channel,  COUNT(*) AS Count
+FROM noted-bliss-439816-r1.hotelbookings.hotel_bookings
+GROUP BY  distribution_channel, customer_type
+ORDER BY Count DESC
+
+Select customer_type, COUNT(*) AS type_Count
+FROM noted-bliss-439816-r1.hotelbookings.hotel_bookings
+WHERE children != 0
+OR babies != 0
+GROUP BY customer_type
+
+Select customer_type,hotel, COUNT(*) AS Count
+FROM noted-bliss-439816-r1.hotelbookings.hotel_bookings
+WHERE children != 0
+OR babies != 0
+GROUP BY customer_type, hotel
+
+#Operational Analysis
+
+SELECT total_of_special_requests, COUNT(*) AS booking_count
+FROM noted-bliss-439816-r1.hotelbookings.hotel_bookings
+GROUP BY total_of_special_requests
+ORDER BY total_of_special_requests;
+##Percentages
+SELECT customer_type,hotel,total_of_special_requests, COUNT(*) AS booking_count,
+ROUND(COUNT(*) * 100.0 / (SELECT COUNT(*) FROM noted-bliss-439816-r1.hotelbookings.hotel_bookings ), 2) AS percentage
+FROM noted-bliss-439816-r1.hotelbookings.hotel_bookings
+GROUP BY total_of_special_requests,customer_type, hotel
+ORDER BY percentage
+
+Select required_car_parking_spaces,  Count(*) AS bookings_with_requieredparking,
+ROUND(COUNT(*) * 100.0 / (SELECT COUNT(*) FROM noted-bliss-439816-r1.hotelbookings.hotel_bookings ), 2) AS percentage
+FROM noted-bliss-439816-r1.hotelbookings.hotel_bookings
+GROUP BY required_car_parking_spaces
+ORDER BY percentage DESC
+
+Select required_car_parking_spaces, hotel,customer_type, Count(*) AS bookings_with_requieredparking,
+ROUND(COUNT(*) * 100.0 / (SELECT COUNT(*) FROM noted-bliss-439816-r1.hotelbookings.hotel_bookings ), 2) AS percentage
+FROM noted-bliss-439816-r1.hotelbookings.hotel_bookings
+GROUP BY required_car_parking_spaces, hotel, customer_type
+ORDER BY percentage DESC
+
+#Revenue Analysis
+
+SELECT 
+    reserved_room_type,
+    SUM(adr * (stays_in_week_nights + stays_in_weekend_nights)) AS total_revenue
+FROM 
+ noted-bliss-439816-r1.hotelbookings.hotel_bookings
+WHERE 
+    is_canceled = 0
+GROUP BY 
+    reserved_room_type
+ORDER BY 
+    total_revenue DESC;
+
+
+SELECT 
+    SUM(stays_in_weekend_nights) * 100.0 / SUM(stays_in_weekend_nights + stays_in_week_nights) AS weekend_nights_percentage,
+    SUM(stays_in_week_nights) * 100.0 / SUM(stays_in_weekend_nights + stays_in_week_nights) AS week_nights_percentage
+FROM noted-bliss-439816-r1.hotelbookings.hotel_bookings
+    
+WHERE 
+    is_canceled = 0;
+
+SELECT 
+    hotel,
+    SUM(adr * (stays_in_week_nights + stays_in_weekend_nights)) AS total_revenue
+FROM 
+   noted-bliss-439816-r1.hotelbookings.hotel_bookings
+WHERE 
+    is_canceled = 0
+GROUP BY 
+    hotel
+ORDER BY 
+    total_revenue DESC;
