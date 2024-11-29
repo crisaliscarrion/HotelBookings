@@ -1,4 +1,4 @@
-# Hotel Bookings
+# Hotel Bookings Analysis
 
 # Project Background
 
@@ -37,7 +37,6 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
   
 * **Parking Space** The data showed 93.79% of the bookings didn't requiere any parkings. The ones that did resquested 1 or more space, belonged to the the Transient customer type and 48.35% that requiered parking did it for the City Hotel while 21.33% requested it for the Resort Hotel.
   
-[Visualization specific to category 1]
 
 
 ### Booking and Cancellation trends:
@@ -46,7 +45,7 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
   
 * **Monthly Cancellatoion Percentage** The top 3 months the hightests cancellations rate are August, July and May respectivaly while the months with the least cancellations rate are January, December and November respectively. Similarly, the customer type with the hightest cancellation rate during the hightests months are the Transient type with a 8.76% in August, 8.23% in July and 7.60% in May. In relation to the type of hotels, the City Hotel had the higests cancellation rates for the peak 3 months  with 7.53 % in August, 6.90%in May, and 6.78% in July.
 * 
-* **Busiest Months** Similarly the patterns follows and shows the the months with the most bookings are August, July and May respectively.
+* **Busiest Months** Similarly the patterns follows and shows the the months with the most bookings are August, and July respectively.
 
 
 [Visualization specific to category 2]
