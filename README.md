@@ -1,5 +1,5 @@
 # Hotel Bookings Analysis
----
+
 # Project Background
 
 This data set pertains to two types of hotels: resort and city hotel and the demands of each type. It includes information about bookings, guests, parking spaces, etc. 
@@ -43,7 +43,7 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
 ![operation analysis](https://github.com/user-attachments/assets/dd01c69e-76c2-4587-a333-9f735896f14b)
 
 ![parking space](https://github.com/user-attachments/assets/3bce3f7f-d80d-4845-9bb4-3dc584de7265)
-
+---
 
 ### Booking and Cancellation trends:
 
@@ -58,7 +58,7 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
 ![cancellations by month](https://github.com/user-attachments/assets/af38ec1a-282d-4edf-9350-f3b9b11eaeb6)
 
 ![bookings by month](https://github.com/user-attachments/assets/139e0b0a-5922-4498-b810-f89ccc7d1e1a)
-
+---
 
 ### Customer Demographics and Behavior:
 
@@ -75,7 +75,7 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
 ![bookings w_wo children or babies](https://github.com/user-attachments/assets/f87a62f8-5345-472f-8b61-8ca76ade3513)
 
 ![bookings w babies or children by customer type](https://github.com/user-attachments/assets/8e0a4db7-b5c0-44da-b809-e51af46b8ce9)
-
+---
 
 ### Revenue and Occupancy:
 
