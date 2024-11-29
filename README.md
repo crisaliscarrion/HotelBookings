@@ -94,21 +94,22 @@ A variety of trends and patterns were identified and attributes were quantified 
 
 # Recommendations:
 
-Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
+Based on the insights and findings above, we would recommend to consider the following: 
 
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* Collaborate with travel agencys and tour agencys to create marketing campaigns. Offer a booking discount for other channels to increase numbers of bookings.
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+*Introduce a charge for cancelleling a booking and require every booking to have a deposit. 
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* Offer discounts or create special offer for low bookings months like November and December.
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+  
+
 
 # References 
 
 Mostipak, J. (2020). Hotel booking demand. Retrieved from https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+
   
 
 
