@@ -27,16 +27,15 @@ The tools used in this project were SQL to clean and analyze the data and RStudi
 
 ### Overview of Findings
 
-A variety of trends and patterns were identified and attributes were quantified to analyze the previouslt listed key areas. The biggest customer type that made the most amount of bookings and the most revenue is the Transient. This customer type tends to do their bookings via a travel agency or a tour operators. Additionally, this customer tends to prefer the City Hotel over the Resort Hotel. The months with the highest number of bookings are August and July but these are also the months with the highest number of cancellations. 
-
+Various trends and patterns were identified, and attributes were quantified to analyze the previously listed key areas. The biggest customer type that made the most bookings and the highest revenue is Transient. This customer type tends to book via a travel agency or tour operator and prefers the City Hotel over the Resort Hotel. The months with the highest number of bookings are August and July, but these are also the months with the highest number of cancellations.
 
 # Insights Deep Dive
 
 ### Hotel Operations:
 
-* **Special Requests** MAround 58.9% of the bookings didn't realize a special request. On the other hand, the data showed that 38.69% realized 1 or 2 special requests. The maxium number of special requests made was 5 consisting of only 0.05% of the total bookings. When taking in consideration the type of hotel and customer, the data shows the the Transient customer as the type to maake the most 1 or 2 special requests and mainly on the City Hotel. 19.98 % of Transient customers staying in City Hotel made 1 or 2 special requests while 16.56 % made 1 or 2 requests in the Resort Hotel.
-  
-* **Parking Space** The data showed 93.79% of the bookings didn't require any parking space. The ones that did request 1 or more parking space, belonged to the the Transient customer type and 48.35% that required parking did it for the City Hotel while 21.33% requested it for the Resort Hotel.
+* **Special Requests** Around 58.9% of the bookings did not include a special request. However, 38.69% involved one or two special requests. The maximum number of special requests made was five, representing only 0.05% of the total bookings. When considering the type of hotel and customer, the Transient customer type made the most one or two special requests, primarily for the City Hotel. Specifically, 19.98% of Transient customers staying in the City Hotel made one or two special requests, compared to 16.56% at the Resort Hotel.
+
+* **Parking Space** The data showed that 93.79% of bookings did not require a parking space. Among those that did, the Transient customer type accounted for the majority, with 48.35% requesting parking at the City Hotel and 21.33% at the Resort Hotel.
 
 
 ![operation analysis](https://github.com/user-attachments/assets/dd01c69e-76c2-4587-a333-9f735896f14b)
@@ -46,11 +45,11 @@ A variety of trends and patterns were identified and attributes were quantified 
 
 ### Booking and Cancellation trends:
 
-* **Cancellation Percentage** The data showed that in all bookings there is a cancellation percentage of 37.07 % Moreover, 27.74% of the cancellations came from City Hotels in comparison to the 9.32% from the Resorts Hotels. Out of all the customer types(Group, Contract, Transient-Part, and Transient, the last one had the biggest cancellation percentage with 30.6 %. 
+* **Cancellation Percentage** The data showed an overall cancellation rate of 37.07%. Among these, 27.74% came from City Hotels, compared to 9.32% from Resort Hotels. Transient customers had the highest cancellation rate at 30.6%.
   
-* **Monthly Cancellation Percentage** The top 3 months with the highests cancellations rate are August, July and May respectively while the months with the least cancellations rate are January, December and November respectively. Similarly, the customer type with the highest cancellation rate during the hightests months are the Transient type with 8.76% in August, 8.23% in July and 7.60% in May. In relation to the type of hotels, the City Hotel had the highest cancellation rates for the peak 3 months  with 7.53 % in August, 6.90%in May, and 6.78% in July.
-  
-* **Busiest Months** Similarly the pattern follows and shows the months with the most bookings are August, and July respectively.
+* **Monthly Cancellation Percentage** The top three months with the highest cancellation rates were August, July, and May, while the months with the lowest rates were January, December, and November. The Transient customer type had the highest cancellation rate during the peak months, with 8.76% in August, 8.23% in July, and 7.60% in May. For hotels, the City Hotel had the highest cancellation rates during these months (e.g., 7.53% in August, 6.90% in May, and 6.78% in July).
+
+* **Busiest Months**  The months with the most bookings were August and July, following a similar pattern to cancellations.
   
 ![cancellations by customer type and hotel](https://github.com/user-attachments/assets/3941a4d0-e1fe-4068-a4de-c233ac1119dd)
 
@@ -61,13 +60,12 @@ A variety of trends and patterns were identified and attributes were quantified 
 
 ### Customer Demographics and Behavior:
 
-* **Booking Behavior**  Out of the 119,390 bookings, 25,124 belong to the Transient-Party customer type, 89613 belong to the Transient type, , 4076 belong to the Contract, and 577 to the Group type. This data shows  that the  biggest customer base belong to the Transient-Party and Transient. Moreover, both of these customer types tend to book in the City Hotels in comparison to the Resorts Hotels. The data showed that the Transient had a total 17,333 bookings in the City Hotel while it only had 30,209 in the Resort Hotel. Similarly, the Transient-Party type had a total of 17,333 bookings in the City Hotel and 7,791 in the Resort Hotel.
+* **Booking Behavior** Out of the 119,390 bookings, 25,124 belonged to the Transient-Party customer type, 89,613 to the Transient type, 4,076 to the Contract type, and 577 to the Group type. This data shows that the largest customer base is Transient and Transient-Party. Both customer types preferred City Hotels over Resort Hotels, with the Transient type having 17,333 bookings at City Hotels compared to 30,209 at Resort Hotels. Similarly, the Transient-Party type had 17,333 bookings at City Hotels and 7,791 at Resort Hotels.
   
-* **Distribution Channels** The data shows that the Transient and Transient-Party primarily favored booking through Travel Agents or Tour Operators(TA/TO). However, the behavior differentiated in the second most popular distribution channels. While the Transient type showed the direct booking channel was the second most popular in their customer type, the Transient-Party type showed preference towards the corporate booking option as their second most popular.
+* **Distribution Channels** The Transient and Transient-Party customers primarily booked through Travel Agents or Tour Operators (TA/TO). However, the second most popular distribution channel varied: the Transient type favored direct booking, while the Transient-Party type preferred corporate booking.
   
-* **Customers with Children and Babies** Out of the  119,390, only 9,332 were bookings with children or babies. The group with the most amount of these bookings were the Transient Type with a total of 8,459. Additionally, this group favored the City Hotel with 4,918 bookings while the Resort had a total of 3,541.
+* **Customers with Children and Babies** Out of 119,390 bookings, only 9,332 included children or babies. The Transient customer type accounted for the majority (8,459), with 4,918 bookings at City Hotels and 3,541 at Resort Hotels.
 
-  
 ![bookings by customer type and channel](https://github.com/user-attachments/assets/60faec14-c7ff-4a19-8f66-728862a4e848)
 
 ![bookings w_wo children or babies](https://github.com/user-attachments/assets/f87a62f8-5345-472f-8b61-8ca76ade3513)
@@ -77,11 +75,11 @@ A variety of trends and patterns were identified and attributes were quantified 
 
 ### Revenue and Occupancy:
 
-* **Room Type** The room type with the most revenue was the A with a total of $14512788.869999 while the L room type made the less revenue bringing only $754.0.
+* **Room Type** The room type generating the most revenue was "A," with a total of $14,512,788.87, while the "L" room type brought in the least revenue, at $754.00.
 
-* **Weekday vs Weekend Booking** The data showed that 72.62% of the bookings were made for a stay in the week while 27.37% were made for a stay in the weekend. 
+* **Weekday vs Weekend Booking**  72.62% of bookings were for weekday stays, while 27.37% were for weekends
 
-* **Revenue by Hotel Type** The City Hotel made the most revenue bringing approximately $25,279,470 while the Resort Hotel brought approximately $17,444,028. In both hotel types the Transient customer type brought the most revenue consisting 80.64%  of the profits for the City Hotel and 79.17% of the profits for the Resort Hotel.
+* **Revenue by Hotel Type** The City Hotel generated the most revenue, approximately $25,279,470, compared to $17,444,028 for the Resort Hotel. In both hotel types, the Transient customer type brought the most revenue, accounting for 80.64% of profits at the City Hotel and 79.17% at the Resort Hotel.
   
 ![room type revenue](https://github.com/user-attachments/assets/7a94fe7a-1cc2-4d0a-a5b1-89d662c0fa86)
 
@@ -95,11 +93,13 @@ A variety of trends and patterns were identified and attributes were quantified 
 
 Based on the insights and findings above, we would recommend to consider the following: 
 
-* Collaborate with travel agencies and tour agencies to create marketing campaigns. Offer a booking discount for other channels to increase numbers of bookings.
+* Collaborate with travel agencies and tour operators to create marketing campaigns. Offer booking discounts through other channels to increase bookings.
   
-* Introduce a charge for canceling a booking and require every booking to have a deposit. 
+* Introduce a cancellation charge and require a deposit for all bookings.
   
-* Offer discount or create special offers for low bookings months like November and December.
+* Offer discounts or create special offers for months with low booking rates, such as November and December.
+
+* Capitalize on the diversity of room types and diversity the stream of revenune since most of it comes from the 'A' type. 
   
 
 # References 
