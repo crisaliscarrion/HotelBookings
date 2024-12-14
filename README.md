@@ -11,7 +11,7 @@ Insights and recommendations are provided on the following key areas:
 - **Customer Demographics and Behavior**
 - **Revenue and Occupancy**
 
-The SQL queries used to inspect and clean the data for this analysis can be found here [here](https://github.com/crisaliscarrion/HotelBookings/blob/main/hotel%20bookings%20queries.txt).
+The SQL queries used to inspect and clean the data for this analysis can be found [here](https://github.com/crisaliscarrion/HotelBookings/blob/main/hotel%20bookings%20queries.txt).
 
 
 # Data Structure & Tools
